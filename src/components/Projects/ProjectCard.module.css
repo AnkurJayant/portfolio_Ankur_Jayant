@@ -8,10 +8,13 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 345px;
+  height: 75vh;
 }
 
 .image {
+  border-radius: 10px;
   margin-bottom: 26px;
+  height: 190px;
 }
 
 .title {
@@ -21,7 +24,7 @@
 
 .description {
   margin-top: 6px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -29,6 +32,7 @@
   width: 100%;
   margin-top: 14px;
   display: flex;
+  /* justify-content: center; */
   flex-direction: row;
   flex-wrap: wrap;
   gap: 6px;
@@ -36,7 +40,7 @@
 }
 
 .skill {
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 400;
   border-radius: 100px;
   background: var(--color-dark);
@@ -53,7 +57,7 @@
 .link {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
   border-radius: 100px;
   background: var(--color-primary);

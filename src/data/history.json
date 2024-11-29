@@ -1,29 +1,38 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
-  },
-  {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
+    "role": "Full-Stack Developer Intern",
+    "organisation": "Furtrieve",
+    "startDate": "May, 2024",
+    "endDate": "Aug, 2024",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
+      "Developed 5 responsive mobile app screens in React Native with real-time interactions.",
+      "Implemented secure user authentication using JWT and cookies.",
+      "Integrated Twilio API for a robust OAuth 2.0 2FA system."
     ],
-    "imageSrc": "history/netflix.png"
+    "imageSrc": "history/Furtrieve.png"
+  },
+  {
+    "role": "Software Engineer",
+    "organisation": "Netcracker Technology",
+    "startDate": "Dec, 2020",
+    "endDate": "May, 2022",
+    "experiences": [
+      "Optimized React components, reducing render times and improving performance.",
+      "Developed RESTful APIs using Java and Spring Boot in a microservices architecture.",
+      "Refactored PL/SQL codebases to enhance query performance by 20%."
+    ],
+    "imageSrc": "history/netcracker.png"
+  },
+  {
+    "role": "Software Developer Intern",
+    "organisation": "PDRL",
+    "startDate": "Sep, 2019",
+    "endDate": "Mar, 2020",
+    "experiences": [
+      "Redesigned 5 webpages, enhancing load speed and responsiveness.",
+      "Migrated backend services to Django, streamlining API performance.",
+      "Collaborated on CSS fixes for a uniform browser experience."
+    ],
+    "imageSrc": "history/pdrl.png"
   }
 ]

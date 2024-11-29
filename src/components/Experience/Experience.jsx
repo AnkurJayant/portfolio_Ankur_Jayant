@@ -5,22 +5,72 @@ import skills from "../../data/skills.json";
 import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
 
+// const SkillsGrid = () => {
+//   return (
+//     <>
+//       {
+//         skills.map((skillRow, rowId) => {
+//           // Get the first key of the current skillRow (either 'languages' or 'frontend')
+//           const categoryName = Object.keys(skillRow)[0];
+//           return(
+//             <div className={styles.skillRow}>
+//               {skillRow[categoryName].map((techCategory, techId) => {
+//             return (
+//               <div key={techId} className={styles.skill}>
+//                 <div className={styles.skillImageContainer}>
+//                   <img src={techCategory.imageSrc} alt={techCategory.title} />
+//                 </div>
+//                 <p>{techCategory.title}</p>
+//               </div>
+//             );
+//           })}
+//             </div>
+//           ) 
+//         })
+//       }
+//     </>
+//   );
+// };
+
+const SkillsGrid = () => {
+  return (
+    <>
+      {
+        skills.map((skillRow, rowId) => {
+          // Get the first key of the current skillRow (either 'languages' or 'frontend')
+          const categoryName = Object.keys(skillRow)[0];
+          return (
+            <div key={rowId} className={styles.skillRow}>
+              {/* First set of technologies */}
+              {skillRow[categoryName].map((techCategory, techId) => {
+                return (
+                  <div key={techId} className={styles.skill}>
+                    <div className={styles.skillImageContainer}>
+                      <img src={techCategory.imageSrc} alt={techCategory.title} />
+                    </div>
+                    <p>{techCategory.title}</p>
+                  </div>
+                );
+              })}
+
+              
+            </div>
+          );
+        })
+      }
+    </>
+  );
+};
+
+
+
 export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Experience</h2>
       <div className={styles.content}>
         <div className={styles.skills}>
-          {skills.map((skill, id) => {
-            return (
-              <div key={id} className={styles.skill}>
-                <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
-                </div>
-                <p>{skill.title}</p>
-              </div>
-            );
-          })}
+          <SkillsGrid/>
         </div>
         <ul className={styles.history}>
           {history.map((historyItem, id) => {

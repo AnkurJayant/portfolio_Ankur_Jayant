@@ -1,26 +1,22 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "RIO",
+    "imageSrc": "projects/RIO.png",
+    "description": "A user-friendly rental platform where individuals can post and browse rental listings, complete with features like user roles, secure authentication, and seamless navigation for an effortless renting experience.",
+    "skills": ["React", "Flask", "MongoDB","Bootstrap"],
+    "demo": "https://rio-delta.vercel.app/"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Cloud Kitchen Web",
+    "imageSrc": "projects/cloudKitchen.png",
+    "description": "A dynamic cloud kitchen platform enabling users to browse menus, place orders, and track them, offering a seamless and interactive food ordering experience.",
+    "skills": ["AngularJS", "TypeScript"," Angular","Material", "RESTful"," API", "Flask"],
+    "source": "https://github.com/AnkurJayant/Cloud-Kitchen-Web"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "NYC Fair estimation model",
+    "imageSrc": "projects/nycFair.webp",
+    "description": "A web-based system designed to predict NYC cab fares with precision leveraging historical data, geographic details, and trip attributes to deliver accurate fare estimates.",
+    "skills": ["REST", "ReactJS", "Hyperparameter", "tuning", "Pandas", "Numpy", "Flask"]
   }
 ]
