@@ -17,3 +17,4 @@ yarn-error.log*
 # Ignore OS-specific files
 .DS_Store  # macOS
 Thumbs.db  # Windows
+.vercel
