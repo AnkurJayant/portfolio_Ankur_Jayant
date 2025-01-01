@@ -8,7 +8,7 @@ export const Hero = () => {
     <section className={styles.container}>
       <div className={styles.pfp}>
         <img
-          src={getImageUrl("hero/pfp.jpg")}
+          src={getImageUrl("hero/pfp2.jpg")}
           alt="Hero image of me"
           className={styles.heroImg}
         />
