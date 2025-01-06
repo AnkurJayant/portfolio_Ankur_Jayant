@@ -15,8 +15,38 @@
   },
   {
     "title": "NYC Fair estimation model",
-    "imageSrc": "projects/nycFair.webp",
+    "imageSrc": "projects/nycFair.jpg",
     "description": "A web-based system designed to predict NYC cab fares with precision leveraging historical data, geographic details, and trip attributes to deliver accurate fare estimates.",
     "skills": ["REST", "ReactJS", "Hyperparameter", "tuning", "Pandas", "Numpy", "Flask"]
+  },
+  {
+    "title": "React Firebase Auth and Roles",
+    "imageSrc": "projects/reactFirebaseAuthRoles.webp",
+    "description": "A boilerplate web application implementing role-based access control. The project defines various user roles with granular access control, including admin and owner roles. It demonstrates secure user authentication and role-based authorization strategies.",
+    "skills": ["React", "Firebase", "Context API", "HOC", "RBAC", "Authentication", "Authorization"],
+    "source":"https://github.com/AnkurJayant/React_Firebase_AuthAndRoles"
+
+  },
+  {
+    "title": "Opacha-MDA Multiplayer",
+    "imageSrc": "projects/opachaMDA.jpg",
+    "description": "A Windows recreation of a mobile multiplayer game using React, HTML, CSS, and HTML Canvas for rendering the game arena.",
+    "skills": ["React", "HTML", "CSS", "HTML Canvas", "Game Development"],
+    "source":"https://github.com/AnkurJayant/Opacha-mda_multiplayer"
+
+  },
+  {
+    "title": "BlogBook",
+    "imageSrc": "projects/blogBook.png",
+    "description": "A full-stack blogging application enabling users to create, search, and manage blogs. Features include admin role for blog deletion and a Python Flask backend for database operations.",
+    "skills": ["React", "Python Flask", "MySQL", "SQLAlchemy", "Flask Marshmallow", "Node.js", "Promises", "Full-Stack Development"],
+    "source":"https://github.com/AnkurJayant/BlogBook"
+  },
+  {
+    "title": "DBHandlerLite",
+    "imageSrc": "projects/dbHandlerLite.jpg",
+    "description": "An Android application developed using Java and Android Studio for performing CRUD operations on a MySQL database directly from an Android device.",
+    "skills": ["Android Studio", "Java", "MySQL", "CRUD Operations", "Mobile App Development"],
+    "source":"https://github.com/AnkurJayant/DBhandlerLite"
   }
 ]
