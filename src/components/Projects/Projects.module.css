@@ -5,6 +5,12 @@
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
+  overflow-x: auto;
+  overflow-y:hidden ;
+  
+}
+.container {
+  scroll-snap-align: start;
 }
 
 .title {
@@ -18,9 +24,33 @@
   margin-top: 37px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: center;
   gap: 15px;
-  width: 100%;
+  scroll-snap-type: x mandatory;
+  width: max-content;
 }
+
+  /* Target the entire scrollbar */
+section::-webkit-scrollbar {
+  width: 8px; /* Width of the vertical scrollbar */
+  height: 15px; /* Height of the horizontal scrollbar */
+}
+
+/* Track (background of the scrollbar) */
+section::-webkit-scrollbar-track {
+  background: transparent; /* Makes the track transparent */
+}
+
+/* Thumb (scroll handle) */
+section::-webkit-scrollbar-thumb {
+  background:rgb(77, 99, 176, 0.5); /* Slightly transparent thumb */
+  border-radius: 4px; /* Rounded corners for the scrollbar */
+}
+
+/* Hover effect on the thumb */
+section::-webkit-scrollbar-thumb:hover {
+  background:rgb(77, 99, 176, 0.9);/* Darker on hover for better visibility */
+}
+ 

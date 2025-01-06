@@ -8,13 +8,46 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 345px;
+  min-width: 345px;
   height: 75vh;
+  overflow: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  scroll-snap-align: start;
+}
+/* Hover effect */
+.container:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Adds a shadow */
+}
+
+/* Target the entire scrollbar */
+div::-webkit-scrollbar {
+  width: 8px; /* Width of the vertical scrollbar */
+  height: 8px; /* Height of the horizontal scrollbar */
+}
+
+/* Track (background of the scrollbar) */
+div::-webkit-scrollbar-track {
+  background: transparent; /* Makes the track transparent */
+}
+
+/* Thumb (scroll handle) */
+div::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.4); /* Slightly transparent thumb */
+  border-radius: 4px; /* Rounded corners for the scrollbar */
+}
+
+/* Hover effect on the thumb */
+div::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.6); /* Darker on hover for better visibility */
 }
 
 .image {
   border-radius: 10px;
   margin-bottom: 26px;
-  height: 190px;
+  min-height: 190px;
+  max-height: 190px;
 }
 
 .title {

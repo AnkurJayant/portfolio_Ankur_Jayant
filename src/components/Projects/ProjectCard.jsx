@@ -6,8 +6,16 @@ import { getImageUrl } from "../../utils";
 export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
+
+  const clickHandler = (source)=>{
+    if (source) {
+      window.open(source, "_blank");
+    }
+  }
+
   return (
-    <div className={styles.container}>
+    
+    <div className={styles.container} onClick={()=>clickHandler(source||demo)}>
       <img
         src={getImageUrl(imageSrc)}
         alt={`Image of ${title}`}
@@ -25,14 +33,14 @@ export const ProjectCard = ({
         })}
       </ul>
       
-      <div className={styles.links}>
+      {/* <div className={styles.links}>
         {demo?<a href={demo} className={styles.link}>
           Demo
         </a>:<></>}
         {source?<a href={source} className={styles.link}>
           Source
         </a>:<></>}
-      </div>
+      </div> */}
     </div>
   );
 };
